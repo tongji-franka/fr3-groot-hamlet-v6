@@ -1,0 +1,12 @@
+.venv*/
+__pycache__/
+*.pyc
+.cache/
+weights/
+outputs/
+reports/
+*.safetensors
+*.pt
+*.npz
+*.npy
+robot/artifacts/
