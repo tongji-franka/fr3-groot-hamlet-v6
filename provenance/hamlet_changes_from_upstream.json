@@ -1,0 +1,43 @@
+[
+  {
+    "path": "gr00t/model/gr00t_n1d6/gr00t_n1d6.py",
+    "status": "modified",
+    "sha256": "96b940e0ee80e4fe8560498968dcfdc54875eb0867756a0948461441976154df"
+  },
+  {
+    "path": "gr00t/model/modules/dit.py",
+    "status": "modified",
+    "sha256": "24df8386bd34b1349fe6fe5331ece991605037ae7d0f81541d5d943381e0075e"
+  },
+  {
+    "path": "gr00t/model/modules/eagle_backbone.py",
+    "status": "modified",
+    "sha256": "3709a47ea92903025988d2c0afcf6c06f9719a4fd49ed9b98437fc034c9d54b7"
+  },
+  {
+    "path": "gr00t/model/modules/nvidia/Eagle-Block2A-2B-v2/vocab.json",
+    "status": "modified",
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "path": "gr00t/model/modules/nvidia/Eagle-Block2A-2B-v2/modeling_eagle3_vl.py",
+    "status": "modified",
+    "sha256": "7c5eb2d5569321b9cf30e5baeeee4edde1af6fe4936bcc509541c93c36761226"
+  },
+  {
+    "path": "gr00t/model/modules/nvidia/Eagle-Block2A-2B-v2/merges.txt",
+    "status": "modified",
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "path": "gr00t/model/modules/nvidia/Eagle-Block2A-2B-v2/modeling_siglip2.py",
+    "status": "modified",
+    "sha256": "028a888148cbbfc0f2ac2951d117c2b7689e4c1539a49bdbfd1385692a14a4b1"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "sha256": "1c32b6f36f45bfe0deaf66d5c506283db37a42693dde6177e5bf90b7fcf94a53",
+    "说明": "本次发布改为中文来源说明，原始完整指南参见固定上游提交"
+  }
+]

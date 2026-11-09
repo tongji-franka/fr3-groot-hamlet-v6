@@ -1,0 +1,48 @@
+# Actual arm trajectory only; the paddle remains fixed in the gripper.
+collection_mode: teach
+bridge:
+  host: 127.0.0.1
+  port: 8767
+  publish_hz: 100
+  qos: best_effort
+topics:
+  state: libfranka/read
+arm_joint_names: [fr3_joint1, fr3_joint2, fr3_joint3, fr3_joint4, fr3_joint5, fr3_joint6, fr3_joint7]
+dataset:
+  root: ~/lerobot_data/hockey_3cam_b04_aligned_v1
+  repo_id: tongji-franka/hockey_3cam_b04_aligned_v1
+  task: hit the red hockey puck until it crosses the center line of the table
+  fps: 30
+  writer_threads: 4
+  video_codec: h264
+  record_reference: false
+timing:
+  max_signal_age_s: 0.2
+  max_camera_age_s: 0.15
+  max_camera_skew_s: 0.05
+  max_tick_lateness_s: 0.03
+cameras:
+  wrist:
+    serial: "342222072682"
+    model: D435I
+    width: 1280
+    height: 720
+    fps: 30
+    rotate_180: false
+  overhead:
+    serial: "262422071299"
+    model: D435
+    width: 1280
+    height: 720
+    fps: 30
+    rotate_180: false
+  third:
+    # SDK serial of the replacement D435i.
+    serial: "261822074954"
+    model: D435I
+    width: 1280
+    height: 720
+    fps: 30
+    rotate_180: false
+snapshot_files:
+  teach: src/franka_lerobot_recorder/config/single_fr3_teach_3cam.yaml

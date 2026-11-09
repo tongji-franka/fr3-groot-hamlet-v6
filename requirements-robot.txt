@@ -1,0 +1,4 @@
+-r requirements-inference.txt
+pyrealsense2==2.59.1.11053
+PyYAML==6.0.3
+pyzmq==27.0.1

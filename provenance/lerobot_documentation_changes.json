@@ -1,0 +1,165 @@
+[
+  {
+    "path": "models/lerobot/src/lerobot/remote_inference/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "f09a4659c08bd5f9caa7784b67ceddf00046acd9ecd1d11daa8f06db6547b720"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/datasets/card_template.md",
+    "处理": "简化并改为简体中文运行时模板",
+    "原始文件SHA256": "f237ac3b54c0a87c99248fcc60d10abe4677c0e8775561f91348cd575819b9ff",
+    "发布文件SHA256": "616dc261479b043661846eed6ed092ad73a26e2ee0173f2d68c009f7ac1bf0d1"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/templates/lerobot_modelcard_template.md",
+    "处理": "简化并改为简体中文运行时模板",
+    "原始文件SHA256": "be72ae6da5fd186a12999cd87cb982165edc2832b2a2f632a2d222dedd5bec35",
+    "发布文件SHA256": "6cb2f3f22d5d69e27d40a7958cb1de44f85162edd836e4624a0551c3ac4e031e"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/templates/lerobot_rewardmodel_modelcard_template.md",
+    "处理": "简化并改为简体中文运行时模板",
+    "原始文件SHA256": "31c1f3de97fd4d8c5d2489072e50a133e7cb56d29b81a7208ff64397fac6709d",
+    "发布文件SHA256": "d4ec303ba69edae47de644b68ec4447dea7d9b272d8300b0625627ed74b5d22a"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/wall_oss_05/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "030bc3b72a58da51edcc316212fbb98a11d823f50bfafe9a4b3c1026d585741e"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/lingbot_vla_v2/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "743fda83e9780bff112a327f5ea2edca86eb7467987b079b97e86f114870d5ed"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/evo1/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "6ca7edefc9d3220d242c420b0e2cf3e02037693bbd6b3b5953964b99c33ba545"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/flux3/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "f5d4a8485942d768100235da93f210cd9ef08a77f024082e4e79b7122e6190dd"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/groot/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "10b51776cdaa7449099398723af38480fdf4f4cc8568336e39233f3f5c04b37f"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/tdmpc/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "6227f422719d11a585ba36fc8a724421d3005cbb34350029e3dc491518b8b388"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/pi05/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "92bf23796f7ec10295fe2f52daecd2cec8f2a536bbd78891d0097bf023a86d1b"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/vla_jepa/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "dcf9b31a075957238ec2caf6acc72c51c0854a49c2e32a78db4fea42b0569600"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/lingbot_va/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "ad3218945c90b80470d11d2ab936ffca03a6259af0234cb2e60fec3c686056fb"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/eo1/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "c77e8a04bef2a30fc9c1df9fca0f9bdc2fff999f537faad368b6c8d7320e8a96"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/lawam/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "332e2923817052729350e8b34f031101849e7620eb6e4a8fc026ba296c0b8b8a"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/fastwam/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "50437593fd921eea0022cad06b546db331413792683795bd1298652d68ef53b8"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/multi_task_dit/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "0d2696505871eaf93e4cd0f7d69672ede2767c832ce42e8423e9c932b7e78736"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/wall_x/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "84b9278b4d4c70b3c2600f618244dd3c04dec48a2a86d972c30e9c5e438ffe83"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/diffusion/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "9a8d1d01c745b25d29ad33b754547740fb8d843ac047195a508589d8e4c5b525"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/dm05/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "782195f437250f1291393c03b5f7caef5a298c5f1e4ec51d69bbc7d8cdcd7588"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/fineart_vla/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "ea820dd002e0fb73cc9ade7bac63b0a1e1f911a2a90b41d5702c000d90ae0819"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/pi0/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "425032c8bb3fed096eda45e032d6ded6a3d8bd431d19d8bacc8b00d479aa487e"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/rtc/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "5a00a77a749a9bf9d0b6d2bd2f21005f159cbdb136db042165223fc0d1311a18"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/act/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "146d6951776b64e59dc001ea3b0a899c69d3556dab58ae890f6cf2c34764e0d2"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/molmoact2/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "b2f1896ed1250061b980066416ecec3f01cc4969bc5d3b35ff96c39134d04c33"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/smolvla/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/vqbet/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "b80931a074f1bebf79b33bcac668edf999cc657c3665937e697da4e263ce3837"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/policies/fastwam/wan/README.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "3e2f4349d0fd70277cc452d6fdeeb66425ed8538bd78c0629168bab6225d9d50"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/robots/so_follower/so100.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "9b9cfd8ff682772d0d73322eed09b85819a3af998c462434d4226c1ff1c02af1"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/robots/so_follower/so101.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "fc57e0ca334b3e7d9fa44266ff84a53f17df57440f71089b7018c9bb2a7af1fb"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/teleoperators/so_leader/so100.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "9b9cfd8ff682772d0d73322eed09b85819a3af998c462434d4226c1ff1c02af1"
+  },
+  {
+    "path": "models/lerobot/src/lerobot/teleoperators/so_leader/so101.md",
+    "处理": "移除与当前训练无关的上游说明页",
+    "原始文件SHA256": "fc57e0ca334b3e7d9fa44266ff84a53f17df57440f71089b7018c9bb2a7af1fb"
+  }
+]

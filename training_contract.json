@@ -1,0 +1,31 @@
+{
+  "model": "hamlet",
+  "horizon": 50,
+  "fps": 30,
+  "joint_names": [
+    "fr3_joint1",
+    "fr3_joint2",
+    "fr3_joint3",
+    "fr3_joint4",
+    "fr3_joint5",
+    "fr3_joint6",
+    "fr3_joint7"
+  ],
+  "action_units": "rad",
+  "camera_order": [
+    "overhead",
+    "wrist",
+    "third"
+  ],
+  "image_delta_indices": [
+    -48,
+    -32,
+    -16,
+    0
+  ],
+  "image_size": 224,
+  "resize": "bilinear_antialias_center_black_pad",
+  "normalization": "bounds",
+  "normalization_min_scale": 0.001,
+  "adapter_kwargs": {}
+}

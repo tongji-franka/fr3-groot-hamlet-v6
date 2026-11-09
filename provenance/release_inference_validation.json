@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "contacts_robot": false,
+  "episode": 0,
+  "frame": 60,
+  "image_shape": [
+    4,
+    3,
+    720,
+    1280,
+    3
+  ],
+  "actions_shape": [
+    50,
+    7
+  ],
+  "all_finite": true,
+  "public_loader_vs_saved_adapter_max_abs_error": 0.0,
+  "elapsed_seconds": 55.138492584228516
+}

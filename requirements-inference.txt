@@ -1,0 +1,23 @@
+# 使用 Python 3.12；先安装 requirements-torch.txt 中的 torch/torchvision。
+numpy==2.2.6
+transformers==4.51.3
+safetensors==0.8.0
+huggingface-hub==0.36.0
+timm==1.0.30
+pillow==12.3.0
+diffusers==0.35.1
+peft==0.17.1
+einops==0.8.2
+albumentations==1.4.18
+pandas==2.3.3
+pyarrow==26.0.0
+av==15.1.0
+tyro==0.9.17
+omegaconf==2.3.1
+scipy==1.18.1
+msgpack==1.2.4
+msgpack-numpy==0.4.8
+dm-tree==0.1.10
+opencv-python-headless==4.13.0.92
+albucore==0.0.17
+PyYAML==6.0.3

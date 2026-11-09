@@ -1,0 +1,47 @@
+{
+  "status": "training_completed_final_checkpoint_verified",
+  "final_step": 20000,
+  "output": "/root/franka-hockey/vla-v4/outputs/hamlet_v6_balanced_20k_20261106",
+  "final_checkpoint": "/root/franka-hockey/vla-v4/outputs/hamlet_v6_balanced_20k_20261106/checkpoint-020000",
+  "completed_utc": "2026-11-07T02:04:24.071351+00:00",
+  "complete_checkpoints": 21,
+  "elapsed_final_run_hours": 7.899255935549736,
+  "verified_files": [
+    {
+      "file": "trainable.safetensors",
+      "bytes": 6211508320,
+      "sha256": "69a6633f025eeab2b365522634ae43356f100ebc04c7bbecb372d64cc2660781"
+    },
+    {
+      "file": "optimizer-rank-000.pt",
+      "bytes": 3104488007,
+      "sha256": "772d7af033cf85a2993aeb299506cdfc0c9190b223ee5c92c215726b6db6ef8e"
+    },
+    {
+      "file": "optimizer-rank-001.pt",
+      "bytes": 3110151096,
+      "sha256": "27cb728d47be6a855955a1d9ff47381d1ae74ff3e0c21dedb182dc845f5b7f25"
+    },
+    {
+      "file": "optimizer-rank-002.pt",
+      "bytes": 3104385830,
+      "sha256": "e1ae1600aa609da442683bd57abc49eb169355257d2a22f8378a04b1083c76bf"
+    },
+    {
+      "file": "optimizer-rank-003.pt",
+      "bytes": 3104377830,
+      "sha256": "b4491246e74269e9a5aa2e4486212c42d2aa7d1551a911d7d2b20da0605f18d8"
+    }
+  ],
+  "optimizer_format": "zero1_local_v1",
+  "runtime_sources_verified": true,
+  "baseline_mse_rad2": 0.0031565339308761995,
+  "best_new_mse_rad2": 0.003336280173015989,
+  "best_new_checkpoint": "/root/franka-hockey/vla-v4/outputs/hamlet_v6_balanced_20k_20261106/checkpoint-020000",
+  "relative_mse_change_percent": 5.694418183868377,
+  "last_train_loss": 0.020160168409347534,
+  "last_train_loss_interval_mean": 0.017570091001223774,
+  "validation_samples": 1024,
+  "median_sharded_checkpoint_seconds": 52.21995997428894,
+  "full_validation_followup_done": false
+}

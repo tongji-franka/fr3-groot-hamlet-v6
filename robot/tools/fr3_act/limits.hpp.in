@@ -1,0 +1,16 @@
+#pragma once
+#include <array>
+namespace fr3_act {
+constexpr std::array<double, 7> velocity_limits{@velocity_values@};
+constexpr std::array<double, 7> acceleration_limits{@acceleration_values@};
+constexpr std::array<double, 7> jerk_limits{@jerk_values@};
+constexpr std::array<double, 7> collision_lower_torque_acceleration{@collision_lower_torque_acceleration_values@};
+constexpr std::array<double, 7> collision_upper_torque_acceleration{@collision_upper_torque_acceleration_values@};
+constexpr std::array<double, 7> collision_lower_torque_nominal{@collision_lower_torque_nominal_values@};
+constexpr std::array<double, 7> collision_upper_torque_nominal{@collision_upper_torque_nominal_values@};
+constexpr std::array<double, 6> collision_lower_force_acceleration{@collision_lower_force_acceleration_values@};
+constexpr std::array<double, 6> collision_upper_force_acceleration{@collision_upper_force_acceleration_values@};
+constexpr std::array<double, 6> collision_lower_force_nominal{@collision_lower_force_nominal_values@};
+constexpr std::array<double, 6> collision_upper_force_nominal{@collision_upper_force_nominal_values@};
+constexpr double profile_id = @profile_id@;
+}

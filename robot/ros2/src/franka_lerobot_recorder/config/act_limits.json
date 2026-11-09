@@ -1,0 +1,16 @@
+{
+  "profile": "hockey_static_aligned_v1",
+  "velocity": [1.0, 2.6, 1.6, 2.6, 3.6, 3.4, 1.8],
+  "acceleration": [4.0, 9.5, 7.0, 9.5, 9.5, 9.5, 9.5],
+  "jerk": [150.0, 350.0, 200.0, 450.0, 350.0, 550.0, 400.0],
+  "collision": {
+    "lower_torque_acceleration": [20, 20, 20, 20, 20, 20, 20],
+    "upper_torque_acceleration": [120, 120, 120, 120, 120, 120, 120],
+    "lower_torque_nominal": [10, 10, 10, 10, 10, 10, 10],
+    "upper_torque_nominal": [120, 120, 120, 120, 120, 120, 120],
+    "lower_force_acceleration": [20, 20, 20, 20, 20, 20],
+    "upper_force_acceleration": [150, 150, 150, 20, 20, 20],
+    "lower_force_nominal": [10, 10, 10, 10, 10, 10],
+    "upper_force_nominal": [150, 150, 150, 20, 20, 20]
+  }
+}

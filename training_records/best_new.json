@@ -1,0 +1,68 @@
+{
+  "checkpoint": "/root/franka-hockey/vla-v4/outputs/hamlet_v6_balanced_20k_20261106/checkpoint-020000",
+  "step": 20000,
+  "metric": "val_action_mse_rad2",
+  "loss": 0.003336280173015989,
+  "is_initial_baseline": false,
+  "validation": {
+    "step": 20000,
+    "loss": 0.020160168409347534,
+    "train_loss": 0.020160168409347534,
+    "grad_norm": 0.11984387785196304,
+    "lr": 2.0000000000000003e-06,
+    "valid_action_steps": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "max_gpu_gb": 29.05508096,
+    "elapsed_seconds": 28323.1856944561,
+    "train_step_seconds": 1.305687127984129,
+    "val_action_mse_rad2": 0.003336280173015989,
+    "val_action_mae_rad": 0.032173087403397096,
+    "val_loss": 0.024607429332491586,
+    "validation_samples": 1024,
+    "validation_valid_coordinates": 331205,
+    "per_joint_mse_rad2": [
+      5.69848242513605e-05,
+      0.006067108691339499,
+      0.003172085060321253,
+      0.01143513803721149,
+      0.000294023847722321,
+      0.000979949557689055,
+      0.0013486711925769493
+    ],
+    "per_joint_mae_rad": [
+      0.004641859470368137,
+      0.053569902753484784,
+      0.03699027826232259,
+      0.07276831802197646,
+      0.010697364493138465,
+      0.021549093820297176,
+      0.024994795002192056
+    ],
+    "j1_predicted_abs_mean_rad": 0.08836794283221744,
+    "j1_predicted_outside15_fraction": 0.0,
+    "validation_seconds": 63.06624150276184,
+    "regions": {
+      "left": {
+        "mse_rad2": 0.004079946708980068,
+        "mae_rad": 0.036104383987516045,
+        "valid_coordinates": 110950
+      },
+      "center": {
+        "mse_rad2": 0.0026976136110778005,
+        "mae_rad": 0.028563991728775856,
+        "valid_coordinates": 109473
+      },
+      "right": {
+        "mse_rad2": 0.0032226059512998734,
+        "mae_rad": 0.03180227964383159,
+        "valid_coordinates": 110782
+      }
+    },
+    "train_loss_mean": 0.017570091001223774
+  },
+  "limitation": "Held out from this fine-tuning run; parent model previously trained on this old data"
+}

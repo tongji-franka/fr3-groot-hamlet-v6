@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "引用本检查点时，请同时引用原始 HAMLET 方法和 NVIDIA GR00T，详见 references.bib 与 THIRD_PARTY_NOTICES.md。"
+type: software
+title: "FR3 GR00T + HAMLET v6：224×224、20,000 步"
+version: v6-224-020000
+date-released: 2026-11-09
+url: "https://huggingface.co/tongji-franka/fr3-groot-hamlet-v6"
+repository-code: "https://github.com/tongji-franka/fr3-groot-hamlet-v6"
+authors:
+  - name: "Tongji Franka Research Team"
+references:
+  - type: conference-paper
+    title: "HAMLET: Switch Your Vision-Language-Action Model into a History-Aware Policy"
+    authors:
+      - family-names: Koo
+        given-names: Myungkyu
+      - family-names: Choi
+        given-names: Daewon
+      - family-names: Kim
+        given-names: Taeyoung
+      - family-names: Lee
+        given-names: Kyungmin
+      - family-names: Kim
+        given-names: Changyeon
+      - family-names: Seo
+        given-names: Younggyo
+      - family-names: Shin
+        given-names: Jinwoo
+    year: 2026
+    url: "https://openreview.net/forum?id=KcJ9U0x6kO"
+  - type: software
+    title: "NVIDIA Isaac-GR00T"
+    authors:
+      - name: NVIDIA
+    url: "https://github.com/NVIDIA/Isaac-GR00T"

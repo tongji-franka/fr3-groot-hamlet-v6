@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "parity_status": "passed",
+  "motion_admission": "passed",
+  "rejection": null,
+  "model": "hamlet",
+  "contacts_robot": false,
+  "checkpoint": "cloud-runtime/exports/hamlet_v6_best_020000_20261107",
+  "manifest_sha256": "2d00e7361441d7e311ef03c2f0cc652cc7e2ce0e56ab6742b83e1045179518ee",
+  "episode": 5,
+  "frame_index": 23,
+  "input_index": 1000,
+  "image_delta_indices": [
+    -48,
+    -32,
+    -16,
+    0
+  ],
+  "image_shape": [
+    1,
+    4,
+    3,
+    3,
+    224,
+    224
+  ],
+  "action_shape": [
+    50,
+    7
+  ],
+  "state_max_abs_error": 0.0,
+  "image_max_abs_error": 0.0,
+  "action_max_abs_error": 0.0,
+  "inference_seconds": 0.0968997629970545,
+  "joint_limits_passed": true,
+  "invalid_action_coordinates": 0,
+  "action_min_rad": [
+    0.09409672021865845,
+    -0.0224495530128479,
+    -0.22255976498126984,
+    -2.4953222274780273,
+    0.03057827055454254,
+    2.4444804191589355,
+    -2.4301645755767822
+  ],
+  "action_max_rad": [
+    0.10049471259117126,
+    0.3408690094947815,
+    -0.08750863373279572,
+    -2.0203473567962646,
+    0.054499536752700806,
+    2.475123643875122,
+    -2.3038570880889893
+  ],
+  "target_actions_supplied_to_deployment": false,
+  "legacy_runtime_migration": false,
+  "hamlet_kv_cache": true
+}

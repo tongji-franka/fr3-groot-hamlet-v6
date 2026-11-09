@@ -1,0 +1,7 @@
+#pragma once
+namespace fr3_act {
+constexpr int protocol_version = 6;
+constexpr double watchdog_seconds = 0.120;
+constexpr const char* build_source_sha256 = "@build_source_sha@";
+constexpr const char* build_profile_sha256 = "@profile_sha@";
+}

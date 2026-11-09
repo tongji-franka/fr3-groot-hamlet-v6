@@ -1,0 +1,20 @@
+{
+  "hamlet": {
+    "repository": "myungkyuKoo/HAMLET-Isaac-GR00T",
+    "commit": "63b40557503e32dd93baebb24923e8ebf42121ef",
+    "source_url": "https://github.com/myungkyuKoo/HAMLET-Isaac-GR00T"
+  },
+  "lerobot": {
+    "repository": "huggingface/lerobot",
+    "commit": "d3793b7e36522321c1c455f0dc4826db3793dceb",
+    "copied_from": "/root/franka-hockey/repos/lerobot",
+    "working_tree_copy": true,
+    "note": "Isolated copy of existing server checkout; installed source hashes are authoritative."
+  },
+  "groot_weights": {
+    "repo": "nvidia/GR00T-N1.6-3B",
+    "revision": "d0814e7ecb19202e7c8468b46098b0b7ef3a6d61",
+    "path": "/root/franka-hockey/vla-v4/weights/hamlet",
+    "status": "ok"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "huggingface_repo": "tongji-franka/fr3-groot-hamlet-v6",
+  "source_revision": "ac36c918c3094b44433daba3840154e4f3b1a2a8",
+  "model_revision": "v6-224-020000",
+  "github_repository": "https://github.com/tongji-franka/fr3-groot-hamlet-v6",
+  "weights": {
+    "file": "trainable.safetensors",
+    "bytes": 6211508320,
+    "sha256": "69a6633f025eeab2b365522634ae43356f100ebc04c7bbecb372d64cc2660781"
+  },
+  "说明": "GitHub 不存储权重，模型代码以固定 Hugging Face 发布内容为基础，仅适配双仓库文档与文件清单。"
+}
